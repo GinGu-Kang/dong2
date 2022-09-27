@@ -1,0 +1,385 @@
+@charset "utf-8";
+/** @ RESET CSS**/
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,table,textarea{font-size:16px;font-family:Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif}
+button,input{border-radius:0}
+fieldset,img{border:0}
+ol,ul{list-style:none}
+address,em{font-style:normal}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+a { text-decoration:none !important }
+a:hover { text-decoration:none !important }
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**container**/
+.container {
+    width: 100vw;
+    background-size: 100% auto; 
+    background-image: url('/images/main.png');
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.component {
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% auto; 
+    background-image: url('/images/main_sea.GIF');
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+/**동이기괴 로고**/
+.title {
+    position: absolute;
+    right: 23vw;
+    top: 11vh;
+}
+
+.logo {
+    width: 18vw;
+    height: 16.5vh;
+}
+
+/**봉봉**/
+.box_01 {
+    width: 15.2vw;
+    height: 12.4vh;
+    position: absolute;
+    top: 5.8vh;
+    left: 6.1vw;
+    z-index: 3;
+}
+
+.items_01 {
+    width: 15vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.character01 {
+    width: 5.5vw;
+    height: 12.2vh;
+    display: flex;
+    align-content: center ;
+
+}
+
+.bongbong {
+    width: 3.38vw;
+    height: 7.31vh;
+    top: 1.85vh;
+    left: 0.78vw;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.circle_box {
+    width: 2.7vw;
+    height: 5.6vh; 
+    display: flex;
+    justify-content: center;
+}
+
+.pointUI {
+   width: 2.7vw;
+   height: 5.6vh; 
+}
+
+@keyframes spinCircle {
+    form {
+        transform: translate(-50%, -50%) rotate(0);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.character01 .circle {
+    transform:translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(255,25, 255, 0);
+    border-spacing: 10px;
+    border-top: 2.8px solid #ffd57a;
+    border-radius:50em;
+    animation-name: spinCircle;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    position: absolute;
+    top: 11.4vh;
+    left: 5.1vw;
+}
+
+.inner01 {
+    width: 9.42vw;
+    height: 12.4vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn_ui {
+    width: 9.42vw;
+    height: 5.09vh;
+    background-image: url('/images/button-ui.png');
+    background-size: 100% auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner01 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+    
+}
+
+.inner01 span:nth-child(2) {
+    font-size: 1rem;
+}
+
+/**연우**/
+.box_02 {
+    width: 15.2vw;
+    height: 16.8vh;
+    position: absolute;
+    top: 34.5vh;
+    left: 28.9vw;
+    z-index: 3;
+}
+
+.character02 {
+    width: 5.57vw;
+    height: 16.6vh;
+    display: flex;
+    align-content: center ;
+    position: relative;
+}
+
+.yeonwoo {
+    width: 5.1vw;
+    height: 16.6vh;
+    top: 1.85vh;
+    left: 0.78vw;
+}
+
+.character02 .circle {
+    transform:translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(255,25, 255, 0);
+    border-spacing: 10px;
+    border-top: 2.8px solid #ffd57a;
+    border-radius:50em;
+    animation-name: spinCircle;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    position: absolute;
+    top: 11.4vh;
+    left: 5.1vw;
+}
+
+.items_02 {
+    width: 15.2vw;
+    height: 16.8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.inner02 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.inner02 span:nth-child(2) {
+    font-size: 1rem;
+}
+
+/**유인수**/
+.box_03 {
+    width: 16.2vw;
+    height: 13.9vh;
+    position: absolute;
+    top: 68.9vh;
+    left: 30.5vw;
+    z-index: 3;
+}
+
+.character03 {
+    width: 6.8vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.yooinsoo {
+    width: 6.7vw;
+    height: 12vh;
+    display: flex;
+    align-content: center;
+}
+
+.character03 .circle {
+    transform:translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(255,25, 255, 0);
+    border-spacing: 10px;
+    border-top: 2.8px solid #ffd57a;
+    border-radius:50em;
+    animation-name: spinCircle;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    position: absolute;
+    top: 3.8vh;
+    left: 1.6vw;
+}
+
+
+.items_03 {
+    width: 16.2vw;
+    height: 13.9vh;
+    display: flex;
+    justify-content: center;
+}
+
+.inner03 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.inner03 span:nth-child(2) {
+    font-size: 1rem;
+}
+
+/**돛단배**/
+.box_04 {
+    width: 17.3vw;
+    height: 13.9vh;
+    position: absolute;
+    top: 33.1vh;
+    right: 32.3vw;
+    z-index: 3;
+}
+
+.character04 {
+    width: 8.3vw;
+    height: 17.1vh;
+}
+
+.guide_story {
+    width: 8.3vw;
+    height: 17.1vh;
+}
+
+.items_04 {
+    width: 17.3vw;
+    height: 13.9vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner04 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inner04 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+.inner04 span:nth-child(2) {
+    font-size: 1rem;
+}
+
+.inner04_1 {
+    width: 14.8vw;
+    height: 5.2vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inner04_1 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.inner04_1 span:nth-child(2) {
+    font-size: 1rem;
+}
+
+/**백두야차**/
+.box_05 {
+    width: 18.3vw;
+    height: 41.2vh;
+    position: absolute;
+    top: 28.9vh;
+    right: 5.1vw;
+    z-index: 3;
+}
+
+
+.items_05 {
+    width: 18.3vw;
+    height: 41.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.smoke {
+    width: 10.3vw;
+    height: 20.7vh;
+
+}
+
+.items05_1 {
+    width: 18.3vw;
+    height: 20.3vh;
+    display: flex;
+}
+.character05 {
+    width: 8.8vw;
+    height: 20.1vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.backdu {
+    width: 7.9vw;
+    height: 17.4vh;
+}
+
+
+.inner05 span {
+    font-family: 'HeirofLightBold';
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.inner05 span:nth-child(2) {
+    font-size: 1rem;
+}
+

@@ -1,0 +1,122 @@
+.screen{
+    width: 100vw;
+    height: 100vh;
+}
+.container-1{
+    width: 100%;
+    height: 100%;
+}
+.yuinsu-section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16,16,13);
+}
+.yuinsu-layer{
+    width: 100%;
+    height: 100%;
+    bottom:0;
+}
+.yuinsu-layer img{
+    height: auto;
+}
+
+
+.tree-layer{
+    margin-bottom: 7%;
+    position: absolute;
+    z-index: 0;
+}
+
+.tree-layer img{
+    position: absolute;
+    bottom: 0;
+}
+
+#tree2{
+    position: absolute;
+    padding-bottom:16.5%;
+    width: 27.2%;
+}
+#plant2{
+    position: absolute;
+    padding-bottom:10.1%;
+    left: 13.6%;
+    width: 20%;
+    
+}
+#plant1{
+    position: absolute;
+    padding-bottom:2.8%;
+    left: 24.1%;
+    width: 19.4%;
+}
+#eyeplant2{
+    position: absolute;
+    padding-bottom: 0;
+    left: 34.8%;
+    width: 19.7%;
+}
+#plant4{
+    position: absolute;
+    padding-bottom: 3.2%;
+    left: 53.5%;
+    width: 20.4%;
+}
+#eyeplant1{
+    position: absolute;
+    padding-bottom: 16.2%;
+    left: 64.7%;
+    width: 22.6%;
+}
+#tree1{
+    position: absolute;
+    padding-bottom: 18.8%;
+    left: 81.9%;
+    width: 17.6%;
+}
+
+
+.stone-layer{
+    position: absolute;
+    z-index: 1;
+}
+#stone{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.deepsea-layer{
+    position: absolute;
+    z-index: 2;
+}
+#deepsea{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.charactor-layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+#yuinsu{
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+}
+
+
+.sea-layer{
+    position: absolute;
+    z-index: 4;
+}
+#sea{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
