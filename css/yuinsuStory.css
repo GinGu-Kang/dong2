@@ -1,3 +1,4 @@
+body { overflow: hidden; }
 .screen{
     width: 100vw;
     height: 100vh;
@@ -7,70 +8,72 @@
     height: 100%;
 }
 .yuinsu-section{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     background-color: rgb(16,16,13);
+    overflow: hidden;
 }
 .yuinsu-layer{
-    width: 100%;
+    transition:all 200ms linear;
+    width: 200%;
     height: 100%;
     bottom:0;
+    overflow: hidden;
 }
 .yuinsu-layer img{
     height: auto;
+    transition:all 200ms linear;
 }
 
 
 .tree-layer{
-    margin-bottom: 7%;
     position: absolute;
     z-index: 0;
 }
 
 .tree-layer img{
     position: absolute;
-    bottom: 0;
 }
 
 #tree2{
     position: absolute;
-    padding-bottom:16.5%;
     width: 27.2%;
 }
 #plant2{
+    margin-top: 8.6%;
     position: absolute;
-    padding-bottom:10.1%;
     left: 13.6%;
     width: 20%;
     
 }
 #plant1{
+    margin-top: 12%;
     position: absolute;
-    padding-bottom:2.8%;
     left: 24.1%;
     width: 19.4%;
 }
 #eyeplant2{
+    margin-top: 4.4%;
     position: absolute;
-    padding-bottom: 0;
     left: 34.8%;
     width: 19.7%;
 }
 #plant4{
+    margin-top: 2.5%;
     position: absolute;
-    padding-bottom: 3.2%;
     left: 53.5%;
     width: 20.4%;
 }
 #eyeplant1{
     position: absolute;
-    padding-bottom: 16.2%;
     left: 64.7%;
     width: 22.6%;
 }
 #tree1{
+    margin-top: 2.5%;
     position: absolute;
-    padding-bottom: 18.8%;
     left: 81.9%;
     width: 17.6%;
 }
@@ -81,8 +84,8 @@
     z-index: 1;
 }
 #stone{
+    margin-top: 20%;
     position: absolute;
-    bottom:0;
     width: 100%;
 }
 
@@ -91,32 +94,44 @@
     z-index: 2;
 }
 #deepsea{
-    width: 100%;
+    margin-top: 36%;
+    width: 150%;
     position: absolute;
-    bottom: 0;
+    
 }
 
 .charactor-layer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;;
     position: absolute;
     z-index: 3;
 }
 #yuinsu{
+
+    margin-top: 20%;
     position: absolute;
-    bottom: 0;
-    width: 20%;
+    width: 34%;
 }
 
 
 .sea-layer{
+
     position: absolute;
     z-index: 4;
 }
 #sea{
-    width: 100%;
+    
+    margin-top: 52%;
+    width: 150%;
     position: absolute;
-    bottom: 0;
+    
 }
 
+
+
+/* .container-2{
+    width: 100vw;
+    height: 100vh;
+
+    
+} */
